@@ -1,0 +1,63 @@
+body{
+    background-image: url(../img/网站工作室迎新ppt-cover的副本.jpg);
+}
+
+body,.glass::before{
+    background: url(../img/网站工作室迎新ppt-cover的副本.jpg) 0 / cover fixed;      
+  }
+  
+ .glass{ 
+    position: relative;
+    background: hska(0,0%,100%,.3);
+    overflow: hidden;   
+  }
+  
+ .glass::before{
+    content: '';
+    position: absolute;
+    top:0;right:0;bottom:0;left:0;
+    filter: blur(20px);
+    margin:-30px;      
+  }
+
+/* .glass{
+    z-index: 1;
+    color: aliceblue;
+    overflow: hidden;   
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    overflow: hidden;
+    border-radius: 40px;
+    margin-top: 30px;
+    box-shadow:0px 5px 20px #0000007c;
+    padding: 40px 30px;
+    
+}
+.glass::after{
+    background-color: rgba(230, 230, 230, 0.564);
+    z-index: 0;
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 2000px;
+}
+
+.glass::after{
+    width: 2000px;
+    height: 2000px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url(../img/网站工作室迎新ppt-cover的副本.jpg);
+    background-attachment: fixed;
+    filter: blur(15px);
+    margin: -30px;
+}
+ */
